@@ -37,7 +37,8 @@
 }
 .entete > h4{
     padding-top: 0px;
-    color: var(--colorText);
+    color: black;
+    font-style: italic;
 }
 
 /* section */
@@ -58,6 +59,7 @@ main{
 }
 .text-container{
     text-align: center;
+
 
 }
 .quiz-options{
@@ -301,6 +303,22 @@ h1::before{
     .score-text{
         margin: 0 20px 0 0;
 
+    }
+    .entete{
+        width: 95%;
+        margin: 0 auto;
+        height: 100px;
+        text-align: center;
+        /* padding: auto 0 ; */
+    }
+    .entete > h1{
+
+        font-weight: 300;
+        font-size: 32px;
+
+    }
+    .entete > h4{
+        font-size: 18px;
     }
 
 
